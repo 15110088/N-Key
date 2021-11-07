@@ -21,7 +21,6 @@ export const  GetNKey =async()=>{
       mode: CryptoJS.mode.CBC
   })
 
- console.log(cipher.ciphertext.toString(CryptoJS.enc.Base64));
 
 
 
