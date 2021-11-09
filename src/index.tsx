@@ -2,9 +2,8 @@ import React from "react";
 import { Text } from "react-native";
 var CryptoJS = require("crypto-js");
 const axios = require('axios');
-
+//new version
 const host="https://datdai.stnmt.dongnai.gov.vn:8443/apidatdai2021Qh"
-//const host="http://192.169.3.197/Apidatdai"
 
 export function multiply(a: number, b: number): Promise<number> {
   return Promise.resolve(a * b);
