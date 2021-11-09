@@ -35,7 +35,7 @@ export const  GetSDE =async()=>
 }
 
 
-export const  GetToken =async()=>{
+export const  GetToken =()=>{
   const key = 'KthdnptcttcnttSTNMT@lovev158942y'
   const iv = 'GDEX1you!fgetTST'
   const cipher = CryptoJS.AES.encrypt('masteryou-'+Math.floor(Date.now() /1000) , CryptoJS.enc.Utf8.parse(key), {

@@ -8,7 +8,6 @@ export default function App() {
 
   React.useEffect(() => {
     add(3, 7).then(setResult);
-    GetToken().then(req=>console.log(req));
 
   }, []);
 
@@ -17,6 +16,7 @@ export default function App() {
       <Text>Result: {result}</Text>
       <Button title="123" onPress={()=>GetSDE().then(req=>console.log(req))}></Button>
       <Button title="123" onPress={()=>GetIIS().then(req=>console.log(req))}></Button>
+      <Button title="token" onPress={()=>console.log(GetToken())}></Button>
 
       {nghiaText()}
     </View>
