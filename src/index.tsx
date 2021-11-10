@@ -61,7 +61,7 @@ export const  GetToken =()=>{
   return cipher.ciphertext.toString(CryptoJS.enc.Base64);
 }
 
-
+ 
 export const  GetIIS =async()=>{
   const keyhash= await GetNKey();
    const data= await axios.post(host+'/api/SDE/GetByID',{hash:keyhash}) 
