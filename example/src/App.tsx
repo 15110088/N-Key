@@ -14,8 +14,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Result: {result}</Text>
-      <Button title="123" onPress={()=>GetSDE().then(req=>console.log(req))}></Button>
-      <Button title="123" onPress={()=>GetIIS().then(req=>console.log(req))}></Button>
+      <Button title="GetSDE" onPress={()=>GetSDE().then(req=>console.log(req))}></Button>
+      <Button title="GetIIS" onPress={()=>GetIIS().then(req=>console.log(req))}></Button>
       <Button title="token" onPress={()=>console.log(GetToken())}></Button>
 
       {nghiaText()}

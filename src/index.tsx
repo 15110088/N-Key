@@ -4,7 +4,18 @@ var CryptoJS = require("crypto-js");
 const axios = require('axios');
 //new version
 const host="https://datdai.stnmt.dongnai.gov.vn:8443/apidatdai2021Qh"
+const xxxxxx = 'intyou'
+const xx = 'GDEX1you!fgetTST'
 
+
+const xxxx=(xxxxx:any)=>{
+  return xxxxx.replace('var','ttcnttSTNMT')
+}
+export const nghiaText=()=>(
+
+  <Text>OK123</Text>
+
+)
 export function multiply(a: number, b: number): Promise<number> {
   return Promise.resolve(a * b);
 }
@@ -12,12 +23,16 @@ export function add(a: number, b: number): Promise<number> {
   return Promise.resolve(a + b);
 }
 
+const convert=(xxxxx:any)=>{
+  return xxxxx.replace('int','master')
+}
 
+const xxx = 'Kthdnptcvar@lovev158942y'
 export const  GetNKey =async()=>{
-  const key = 'KthdnptcttcnttSTNMT@lovev158942y'
-  const iv = 'GDEX1you!fgetTST'
-  const cipher = CryptoJS.AES.encrypt('masteryou-'+Math.floor(Date.now() /1000) , CryptoJS.enc.Utf8.parse(key), {
-      iv: CryptoJS.enc.Utf8.parse(iv),
+  var kit = xxxx(xxx);
+  var chat=convert(xxxxxx)
+  const cipher = CryptoJS.AES.encrypt(chat+'-'+Math.floor(Date.now() /1000) , CryptoJS.enc.Utf8.parse(kit), {
+      iv: CryptoJS.enc.Utf8.parse(xx),
       padding: CryptoJS.pad.Pkcs7,
       mode: CryptoJS.mode.CBC
   })
@@ -34,11 +49,12 @@ export const  GetSDE =async()=>
 }
 
 
+
 export const  GetToken =()=>{
-  const key = 'KthdnptcttcnttSTNMT@lovev158942y'
-  const iv = 'GDEX1you!fgetTST'
-  const cipher = CryptoJS.AES.encrypt('masteryou-'+Math.floor(Date.now() /1000) , CryptoJS.enc.Utf8.parse(key), {
-      iv: CryptoJS.enc.Utf8.parse(iv),
+  var kit = xxxx(xxx);
+  var chat=convert(xxxxxx)
+  const cipher = CryptoJS.AES.encrypt(chat+'-'+Math.floor(Date.now() /1000) , CryptoJS.enc.Utf8.parse(kit), {
+      iv: CryptoJS.enc.Utf8.parse(xx),
       padding: CryptoJS.pad.Pkcs7,
       mode: CryptoJS.mode.CBC
   })
@@ -53,8 +69,4 @@ export const  GetIIS =async()=>{
 }
 
 
-export const nghiaText=()=>(
 
-    <Text>OK123</Text>
-  
-)
